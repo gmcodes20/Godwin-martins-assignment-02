@@ -13,17 +13,26 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
-function sumOfNumbers(arrayOfNumbers) {
-  let sumOfNumbers = 0;
-  for (i=0; i < arrayOfNumbers.length; i++){
-    if (typeof arrayOfNumbers[i] === 'number'){
-      sumOfNumbers += (arrayOfNumbers[i])
-    }
+
+
+// Using Reduce Method
+// function sumOfNumbers(arrayOfNumbers) {
+//   let sumOfNumbers = arrayOfNumbers.reduce((sum, next) =>{
+//     return sum + next;
+//   });
+
+
+  
+  // let sumOfNumbers = 0;
+  // for (i=0; i < arrayOfNumbers.length; i++){
+  //   if (typeof arrayOfNumbers[i] === 'number'){
+  //     sumOfNumbers += (arrayOfNumbers[i])
+  //   }
       
-  }
-    return sumOfNumbers;
-}
-assignment.sumOfNumbers = sumOfNumbers;
+  // }
+    // return sumOfNumbers;
+// }
+// assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
